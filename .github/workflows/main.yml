@@ -37,3 +37,9 @@ jobs:
             name: getting-started-github
             location: 'west europe'
             ports: '3000'
+            volumes:
+        - name: filesharevolume
+            azureFile:
+            sharename: wjshare
+            storageAccountName: rgstoragewj
+            storageAccountKey: TYP8EWG1LKV5P2c3ULMPCCCl/8cYbLTcLlm+3AecjrGyC0Yb0aIEVVRjvSs3TtKuMQiAuGsK1a7C+AStN2HzQA==
